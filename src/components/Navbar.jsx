@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className="m-8 flex items-center justify-left gap-4 text-2xl">
             <FaLinkedin />
             <FaInstagram />
-            <FaGithub />
+            {/* <FaGithub /> */}
         </div>
     </nav>
   )
