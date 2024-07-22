@@ -60,22 +60,22 @@ export const PROJECTS = [
       },
       {
         title: "Server-Side Development",
-        skills: ["C#", "gRPC", "sqlSugar", "MagicOnion", "RESTful API"],
-        desc: "Developed and maintained game servers, designed and maintained MySQL databases, and implemented caching strategies using Redis",
+        skills: ["C#", "gRPC", "sqlSugar", "MagicOnion"],
+        desc: "Developed and maintained server-side APIs for login, registration, in-app purchases, and various game features. Implemented gRPC for efficient communication between game clients and servers, a real-time chatroom supporting bidirectional instant communication",
+      },
+      {
+        title: "Database Management",
+        skills: ["MySql", "sqlSugar", "Redis"],
+        desc: "Engineered and managed databases to support game features, ensuring accurate updates for player records, and implemented Redis caching for performance optimization in features like pvp ranking and leaderboards.",
       },
       {
         title: "CI/CD Pipeline",
-        skills: ["Jenkins"],
-        desc: "Managed the build process using Jenkins, ensuring automated building and deployment of game updates across multiple platforms, versions, and environments such as development, staging, and production",
-      },
-      {
-        title: "Content Management System",
-        skills: ["React", "Node.js", "TypeScript"],
-        desc: "",
+        skills: ["Jenkins", "AWS"],
+        desc: "Automated the build and asset deployment using Jenkins, AWS S3, and CloudFront, significantly improving deployment efficiency and reliability",
       },
       {
         title: "Cloud Infrastructure",
-        skills: ["AWS", "Jenkins"],
+        skills: ["AWS"],
         desc: "Set up and maintained cloud infrastructure on AWS, including configuring EC2 instances for application hosting, deploying databases on RDS, storing asset bundles on S3, and distributing content via CDN for enhanced performance and scalability",
       },
     ],
