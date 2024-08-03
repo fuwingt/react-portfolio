@@ -1,7 +1,6 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
 import icon0 from "../assets/projects/icon-0.png";
-import project4 from "../assets/projects/project-4.jpg";
+import mland_icon from "../assets/projects/mland_icon.jpeg";
+import xp_icon from "../assets/projects/xp_icon.jpg";
 
 export const HERO_CONTENT = `I am a passionate and results-driven full stack developer with a talent for creating scalable and efficient solutions. On the front end, I excel with C#, React, and TypeScript, crafting seamless and dynamic user experiences. On the back end, I specialize in C#, .NET, Node.js, and MySQL, ensuring robust and reliable server-side performance. My goal is to leverage my skills to develop innovative solutions that solve complex problems and deliver exceptional user experiences.`;
 
@@ -50,7 +49,7 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "神息之地 Mythicland",
-    image: project1,
+    image: mland_icon,
     description: "Mobile game, Idle-RPG",
     technologies: [
       {
@@ -78,18 +77,31 @@ export const PROJECTS = [
         skills: ["AWS"],
         desc: "Set up and maintained cloud infrastructure on AWS, including configuring EC2 instances for application hosting, deploying databases on RDS, storing asset bundles on S3, and distributing content via CDN for enhanced performance and scalability",
       },
+      {
+        title: "Content Management System (CMS)",
+        skills: ["TypeScript", "React", "Node.js"],
+        desc: "Developed a CMS for game data management and analytics, enabling the team to easily manage game content",
+      },
     ],
+    gameplay: "https://www.youtube.com/watch?v=O1zGs-aOtl4&ab_channel=fwbackup",
   },
   {
     title: "King of Kinks",
-    image: icon0,
+    image: xp_icon,
     description: "Mobile game, Idle-RPG",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    technologies: [
+      {
+        title: "Client-Side Development",
+        skills: ["Unity", "C#", "UniRx"],
+        desc: "Implemented game core features such as character and item storage, mission system, pvp system, and item store",
+      },
+    ],
+    gameplay: "https://www.youtube.com/watch?v=8allv8nRp9s&ab_channel=fwbackup",
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
+  address: "",
   phoneNo: "+852 5540 4483 ",
   email: "fuwingt@gmail.com",
 };

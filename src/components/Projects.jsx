@@ -33,11 +33,29 @@ const Projects = () => {
                           className="w-full max-w-xl lg:w-3/4">
                           <h6 className="mb-2 font-semibold">{project.title}</h6>
                           <p className="mb-4 text-netural-400">{project.description}</p>
-                          {/* {project.technologies.map((tech, index) => (
-                              <span key={index} className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-teal-500">
-                                  {tech}
-                                </span>
-                            ))} */}
+                          {project.gameplay && (
+                              <>
+                                <span className="mb-4 text-netural-400">Gameplay: </span>
+                                <a href={project.gameplay} className="text-teal-500 hover:underline" target="_blank" rel="noopener noreferrer">
+                                      Youtube
+                                </a>
+                              </>
+                          )}
+                          {
+                            project.technologies.map((tech, index) => (
+                                <>
+                                    <h6 className="mt-4 font-semibold">
+                                        {tech.title}
+                                    </h6>
+                                    <p key={index} className="mb-2 text-neutral-400">• {tech.desc}</p>
+                                    {tech.skills?.map((skill, skillIndex) => (
+                                    <span key={skillIndex} className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-teal-500">
+                                        {skill}
+                                    </span>
+                                    ))}
+                                </>
+                            ))
+                          }
                       </motion.div>
                   </div>
               ))}
