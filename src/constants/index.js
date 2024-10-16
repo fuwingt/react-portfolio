@@ -17,8 +17,8 @@ export const EXPERIENCES = [
       "Designed and maintained MySQL databases for game data storage, and implemented caching strategies using Redis",
       "Integrated third-party platform SDK into the game, enabling features such as registration, login and in-app purchases",
       "Developed Content Management System (CMS) for game data management and analytics using React, Node.js, and TypeScript",
-      "Managed the build process using Jenkins, ensuring automated building, and deployment of game updates.",
-      "Set up and maintained cloud infrastructure on AWS, including EC2 instances, setting up gateways, and utilizing RDS, S3, and CDN services to ensure scalability and reliability of game services.",
+      "Managed the build process using Jenkins, ensuring automated building, and deployment of game updates",
+      "Set up and maintained cloud infrastructure on AWS, including EC2 instances, setting up gateways, and utilizing RDS, S3, and CDN services to ensure scalability and reliability of game services",
     ],
     technologies: [
       "C#",
@@ -35,7 +35,7 @@ export const EXPERIENCES = [
   },
   {
     year: "2020 - 2022",
-    role: "Client Programmer",
+    role: "Game Programmer",
     company: "Qookia Limited",
     description: [
       "Developed and maintained game features using Unity and C#. Designed and implemented user interfaces with Unity's UGUI system, ensuring a smooth and engaging player experience",
@@ -79,8 +79,16 @@ export const PROJECTS = [
       },
       {
         title: "Content Management System (CMS)",
-        skills: ["TypeScript", "React", "Node.js"],
-        desc: "Developed a CMS for game data management and analytics, enabling the team to easily manage game content",
+        skills: [
+          "TypeScript",
+          "React",
+          "Node.js",
+          "Material UI",
+          "Axios",
+          "Express",
+          "TypeORM",
+        ],
+        desc: "Developed a CMS for game data management, enabling the team to easily manage game content in different environments",
       },
     ],
     gameplay: "https://www.youtube.com/watch?v=O1zGs-aOtl4&ab_channel=fwbackup",
